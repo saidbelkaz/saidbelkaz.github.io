@@ -513,6 +513,16 @@ header .navbar ul li a:hover{
         border: none;
         height: inherit;
     }
+    .about .row .textContent {
+        text-align: center;
+        color: var(--yellow);
+        font-size: 20px;
+        margin: 20px;
+        border: 1px solid var(--yellow);
+        padding: 30px;
+        border-radius: 80px 0;
+        /* background-color: grey; */
+    }
  }
 
 @media (max-width:400px){
@@ -549,6 +559,16 @@ header .navbar ul li a:hover{
     .skills .row .info .framework ul{
         border: none;
         height: inherit;
+    }
+    .about .row .textContent {
+        text-align: center;
+        color: var(--yellow);
+        font-size: 20px;
+        margin: 20px;
+        border: 1px solid var(--yellow);
+        padding: 30px;
+        border-radius: 80px 0;
+        /* background-color: grey; */
     }
 
  }
