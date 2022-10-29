@@ -238,7 +238,7 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 /* ---------------------- */
-.skills .row{
+/* .skills .row{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -299,7 +299,7 @@ header .navbar ul li a:hover{
 }
 .skills .row .info .software ul li{
     padding: 5px;
-}
+} */
 
 
 
@@ -342,6 +342,61 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--yellow);
+}
+/* ======= */
+
+.skills .box-container{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:5rem 0;
+    padding-left: 5rem;
+}
+
+.skills .box-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+    width: 100%;
+}
+
+.skills .box-container .box span{
+    font-size: 2.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+    font-weight: 700;
+}
+
+.skills .box-container .box h3{
+    font-size: 2rem;
+    color:#fff;
+    padding-top: 1.5rem;
+    padding-left: 4.5rem;
+    text-transform: capitalize;
+}
+
+.skills .box-container .box p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.skills .box-container .box i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -550,7 +605,7 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
-    .skills .row .info{
+    /* .skills .row .info{
         display: block;
     }
     .skills .row .info .Languages ul{
@@ -559,7 +614,7 @@ header .navbar ul li a:hover{
     .skills .row .info .framework ul{
         border: none;
         height: inherit;
-    }
+    } */
     .about .row .textContent {
         text-align: center;
         color: var(--yellow);
