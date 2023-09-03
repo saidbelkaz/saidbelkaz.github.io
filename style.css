@@ -11,7 +11,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
 }
 
@@ -98,18 +98,19 @@ header .user img{
     height:17rem;
     width:17rem;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 1rem;
     border:.7rem solid var(--yellow);
+    background: var(--white);
 }
 
 header .user .name{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color:#fff;
 }
 
 header .user .post{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:#eee;
 }
 
@@ -185,7 +186,7 @@ header .navbar ul li a:hover{
 }
 .about .row .textContent{
     text-align: center;
-    color: var(--yellow);
+    color: var(--white);
     font-size: 20px;
     margin: 50px;
     border: 1px solid var(--yellow);
@@ -198,7 +199,7 @@ header .navbar ul li a:hover{
     flex:1 1 48rem;
     padding:2rem 1rem;
     padding-left: 6rem;
-    text-align: center;
+    text-align: start;
 }
 
 .about .row .info h3{
@@ -238,69 +239,6 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 /* ---------------------- */
-/* .skills .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:1rem 0;
-}
-
-.skills .row .info{
-    display: flex;
-    justify-content: space-around;
-    flex: 1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 6rem;
-}
-
-.skills .row .info .Languages span{
-    color: var(--white);
-    font-size: 15px;
-}
-
-.skills .row .info .Languages ul{
-    color: var(--yellow);
-    list-style-type: circle;
-    font-size: 20px;
-    padding: 20px;
-    border-right: 1px solid var(--white);
-}
-.skills .row .info .Languages ul li {
-    padding: 5px;
-}
-
-.skills .row .info .framework span{
-    color: var(--white);
-        font-size: 15px;
-}
-
-.skills .row .info .framework ul{
-    color: var(--yellow);
-    list-style-type: circle;
-    font-size: 20px;
-    padding: 20px;
-    border-right: 1px solid var(--white);
-    height: 225px;
-}
-.skills .row .info .framework ul li{
-    padding: 5px;
-}
-.skills .row .info .software span{
-    color: var(--white);
-    font-size: 15px;
-}
-
-.skills .row .info .software ul{
-    color: var(--yellow);
-    list-style-type: circle;
-    font-size: 20px;
-    padding: 20px;
-}
-.skills .row .info .software ul li{
-    padding: 5px;
-} */
-
 
 
 .education .box-container{
@@ -353,6 +291,60 @@ header .navbar ul li a:hover{
     color:#fff;
     background:var(--yellow);
 }
+/* css .experience */
+.experience .box-container {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+    padding-left: 5rem;
+}
+
+.experience .box-container .box {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+    width: 100%;
+}
+
+.experience .box-container .box span {
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+
+.experience .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.experience .box-container .box p {
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+.experience .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+}
+/* end css .experience */
+
 /* ======= */
 
 .skills .box-container{
@@ -497,8 +489,8 @@ header .navbar ul li a:hover{
     
 }
 .top img{
-    width: 80px;
-    padding: 20px;
+    width: 50px;
+    padding: 15px;
 }
 
 
@@ -570,7 +562,7 @@ header .navbar ul li a:hover{
     }
     .about .row .textContent {
         text-align: center;
-        color: var(--yellow);
+        color: var(--white);
         font-size: 20px;
         margin: 20px;
         border: 1px solid var(--yellow);
@@ -617,7 +609,7 @@ header .navbar ul li a:hover{
     } */
     .about .row .textContent {
         text-align: center;
-        color: var(--yellow);
+        color: var(--white);
         font-size: 20px;
         margin: 20px;
         border: 1px solid var(--yellow);
